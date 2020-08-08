@@ -10,6 +10,8 @@
 """
 import math
 print("test pull...")
+print("test fetch....")
+
 
 class Rectangle:
     def __init__(self, length, width, size=(40, 20)):
