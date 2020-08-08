@@ -38,6 +38,9 @@ class TestRectangle(TestCase):
     def test_resize(self):
 
         self.assertRaises(ValueError, self.rectangle.resize, 15, 0)
+    
+    def test_length(self):
+        self.assertEqual(self.rectangle.width, 30)
 
     from unittest import skip
     
