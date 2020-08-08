@@ -42,6 +42,10 @@ class TestRectangle(TestCase):
     def test_length(self):
         self.assertEqual(self.rectangle.width, 30)
 
+    def test_resize_positive(self):
+        self.rectangle.resize(20, 50)
+        self.assertEqual(self.rectangle._size[0], 20)
+
     from unittest import skip
     
     @skip('just for testing')
