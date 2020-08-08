@@ -33,6 +33,9 @@ class TestRectangle(TestCase):
         diff = self.rectangle.diff()
         self.assertEqual(diff, 15)
 
+    def test_width(self):
+        self.assertEqual(self.rectangle.width, 15)
+
     def test_resize(self):
 
         self.assertRaises(ValueError, self.rectangle.resize, 15, 0)
