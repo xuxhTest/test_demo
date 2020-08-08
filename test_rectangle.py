@@ -20,7 +20,6 @@ class TestRectangle(TestCase):
     def test_area(self):
 
         area = self.rectangle.area()
-        print(area)
         self.assertEqual(area, 450)
 
     def test_perimeter(self):
