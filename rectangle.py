@@ -10,8 +10,6 @@
 """
 import math
 print("test pull...")
-print("test fetch1....")
-
 
 
 class Rectangle:
