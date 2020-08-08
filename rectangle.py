@@ -9,7 +9,6 @@
 2020/8/2             1.0         None
 """
 import math
-print("test xuxh update...")
 
 
 class Rectangle:
