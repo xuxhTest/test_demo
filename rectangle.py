@@ -11,7 +11,6 @@
 import math
 print("test pull...")
 print("test fetch....")
-print("test master update...")
 
 
 class Rectangle:
