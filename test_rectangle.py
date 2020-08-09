@@ -10,6 +10,7 @@
 """
 from unittest import TestCase
 from rectangle import Rectangle
+print("I update code")
 print(" Smith update code")
 print(" kate update code too")
 
@@ -37,6 +38,9 @@ class TestRectangle(TestCase):
 
     def test_width(self):
         self.assertEqual(self.rectangle.width, 15)
+
+    def test_height(self):
+        self.assertEqual(self.rectangle.height, 30)
 
     def test_resize(self):
 
