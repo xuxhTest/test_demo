@@ -10,6 +10,7 @@
 """
 from unittest import TestCase
 from rectangle import Rectangle
+pirnt(" Smith update code")
 
 
 class TestRectangle(TestCase):
