@@ -10,7 +10,9 @@
 """
 from unittest import TestCase
 from rectangle import Rectangle
-pirnt(" Smith update code")
+print(" Smith update code")
+print(" kate update code too")
+
 
 
 class TestRectangle(TestCase):
